@@ -9,7 +9,7 @@ It also makes sure your timeline is at the very end before exporting so you don'
 
 # What is being exported
 As with most designs, you might have stock parts like screws or nuts you don't want to export.   
-**This script takes your project's name in camel_case and looks for bodies that have that name prepended to their own name.**
+**This script takes your project's name in snake_case (so `My Project` becomes `my_project`) and looks for bodies that have that name prepended to their own name.**
 
 ![](https://github.com/robin7331/fusion-360-stl-exporter/blob/ffbec123f7e391dc65842881dff77d9ff8a1cc5c/media/export.png)
 
